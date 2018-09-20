@@ -8,9 +8,12 @@
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "dev": "nodemon app.js"
   },
   "repository": {
