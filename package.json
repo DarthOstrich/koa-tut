@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "jest --watchAll",
-    "dev": "nodemon app.js"
+    "dev": "nodemon --inspect app.js "
   },
   "repository": {
     "type": "git",

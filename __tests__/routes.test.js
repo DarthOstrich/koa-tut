@@ -18,3 +18,10 @@ describe('basic route tests', () => {
     expect(response.text).toContain('Hello World!');
   });
 });
+
+describe('dog tests', () => {
+  test('get all dogs  GET /dogs', async () => {
+    const response = await request(server).get('/dogs');
+    expect(response.status).toEqual(200);
+  });
+});
